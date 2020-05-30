@@ -55,7 +55,7 @@ const Dashboard: React.FC = () => {
 
       setFoods([...foods, newDish]);
     } catch (err) {
-      console.log(err);
+      throw new Error(err);
     }
   }
 
@@ -82,6 +82,32 @@ const Dashboard: React.FC = () => {
           description: response.data.description,
           price: response.data.price,
           image: response.data.image,
+        };
+      }
+      return foodOnDashboard;
+    });
+
+    setFoods(foodsUpdated);
+  }
+
+  async function handleFoodSwitchAvailability(food: IFoodPlate): Promise<void> {
+    const { id, name, image, price, description } = food;
+    const available = !food.available;
+
+    await api.put(`/foods/${food.id}`, {
+      id,
+      name,
+      image,
+      price,
+      description,
+      available,
+    });
+
+    const foodsUpdated = foods.map(foodOnDashboard => {
+      if (foodOnDashboard.id === id) {
+        return {
+          ...foodOnDashboard,
+          available,
         };
       }
       return foodOnDashboard;
@@ -136,6 +162,7 @@ const Dashboard: React.FC = () => {
               food={food}
               handleDelete={handleDeleteFood}
               handleEditFood={handleEditFood}
+              handleFoodSwitchAvailability={handleFoodSwitchAvailability}
             />
           ))}
       </FoodsContainer>
