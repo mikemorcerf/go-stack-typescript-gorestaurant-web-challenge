@@ -23,6 +23,62 @@
       "price": "25.90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
+    },
+    {
+      "name": "Moda Iteliana",
+      "description": "muit bom",
+      "price": "19.90",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 4
+    },
+    {
+      "name": "Test",
+      "description": "Hello",
+      "price": "19.88",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 5
+    },
+    {
+      "name": "Test",
+      "description": "Hello",
+      "price": "19.88",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 6
+    },
+    {
+      "name": "test now",
+      "description": "hey",
+      "price": "3.20",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 7
+    },
+    {
+      "name": "test now",
+      "description": "hey",
+      "price": "3.20",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 8
+    },
+    {
+      "name": "once again",
+      "description": "agora vai",
+      "price": "2.50",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 9
+    },
+    {
+      "name": "New Dish",
+      "description": "test agaaain",
+      "price": "2.10",
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "available": true,
+      "id": 10
     }
   ]
 }
