@@ -57,22 +57,6 @@
       "id": 7
     },
     {
-      "name": "test now",
-      "description": "hey",
-      "price": "3.20",
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "available": true,
-      "id": 8
-    },
-    {
-      "name": "once again",
-      "description": "agora vai",
-      "price": "2.50",
-      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "available": true,
-      "id": 9
-    },
-    {
       "name": "New Dish Edited",
       "description": "test agaaain edited",
       "price": "5.80",
