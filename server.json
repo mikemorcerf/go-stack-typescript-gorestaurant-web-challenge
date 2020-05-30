@@ -73,9 +73,9 @@
       "id": 9
     },
     {
-      "name": "New Dish",
-      "description": "test agaaain",
-      "price": "2.10",
+      "name": "New Dish Edited",
+      "description": "test agaaain edited",
+      "price": "5.80",
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
       "available": true,
       "id": 10
